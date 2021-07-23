@@ -23,13 +23,35 @@
   <meta name="apple-mobile-web-app-title" content="clinicamd">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <title>clinicamd</title>
+  <title>Clinica MD</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <!-- Add this line -->
+  
+  <!-- firebase -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script> 
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyDVFdWgph2UDJ-adkHzQ9L03pdFnBrb9fg",
+      authDomain: "clinicamd-fd0ae.firebaseapp.com",
+      databaseURL: "https://clinicamd-fd0ae.firebaseio.com",
+      projectId: "clinicamd-fd0ae",
+      storageBucket: "clinicamd-fd0ae.appspot.com",
+      messagingSenderId: "...",
+      appId: "1:...:web:...",
+      measurementId: "G-...",
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <!-- firebase -->
   <script>
     var serviceWorkerVersion = null;
     var scriptLoaded = false;

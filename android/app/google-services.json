@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1062759048289",
+    "project_id": "clinicamd-fd0ae",
+    "storage_bucket": "clinicamd-fd0ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062759048289:android:bf47d11bfc38d7575e7620",
+        "android_client_info": {
+          "package_name": "com.example.clinicamd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062759048289-84fs4q5e7d14cm55t1l0ulg9adloffpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHC02JasEpZ_la7VQbPSh8FPp5wv3nCDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062759048289-84fs4q5e7d14cm55t1l0ulg9adloffpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
